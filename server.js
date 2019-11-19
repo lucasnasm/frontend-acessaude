@@ -5,7 +5,7 @@ const app = express()
 app.set('port', (process.env.PORT || 5000));
 
 // Express server.
-const staticFileMiddleware = express.static(__dirname,+ '/public')
+const staticFileMiddleware = express.static(__dirname + '/public')
 app.use(staticFileMiddleware)
 app.use(history({
  disableDotRule: true,
