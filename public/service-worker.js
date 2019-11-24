@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.1d86cf06dc33b8d748982f72587d9efd.js"
+  "/precache-manifest.75af7a4e26b5e4cebe81dc9f10aaceb3.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "acessaude"});
